@@ -1,0 +1,284 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'helvatica', sans-serif;
+    text-align: center;
+    background-clip: #ffffff;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    left: 0;
+    background: #292931;
+    height: 150px;
+    top: 0;
+}
+
+header h1 {
+    position: absolute;
+    color: #ffffff;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tableOuter {
+    width: 750px;
+    height: 480px;
+    margin: 0 auto;
+    background: #e5e5e5;
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 60%;
+    margin: 10px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(74, 74, 74);
+}
+
+::placeholder{
+    font: 25px;
+    text-align: center;
+}
+
+.sub{
+    height: 40px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 15px;
+}
+
+#giris{
+    background: #10ac84;
+}
+#giris:hover{
+    background: #43a28a;
+}
+
+#uye{
+    background-color: #ac9710;
+}
+#uye:hover{
+    background: #a2974f;
+}
+
+.sekbutton{
+    height: 80px;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 28px;
+    color: rgb(232, 232, 232);
+    font-weight: bold;
+    cursor: pointer;
+    margin: 18px;
+}
+
+#sk{
+    background-color: #e77912;
+}
+#sk:hover{
+    background: #e39d5c;
+}
+
+
+
+a {
+    font-size: 18px;
+    color: (100, 100, 100);
+}
+
+.ust_bar {
+    position: relative;
+    width: 85%;
+    height: 100px;
+    left: 0;
+    background: #282930;
+    top: 0;
+}
+
+.ust_bar h1{
+    position: absolute;
+    left: 50px;
+    line-height: 50px;
+    color: white;
+}
+
+.menu {
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    background: #292830;
+    right: 0;
+}
+
+
+.menu h5 {
+    position: relative;
+    display: inline;
+    padding: 50px;
+    line-height: 100px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.cikis{
+    position: absolute;
+    width: 15%;
+    height: 100px;
+    background: #282930;
+    right: 0;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 25px;
+    cursor: pointer;
+    top: 0;
+}
+
+.cikis:hover{
+    background: red;
+}
+
+.adsoyad {
+    position: relative;
+    width: 300px;
+    height: 20px;
+    left: 50px;   
+}
+
+.adsoyad h4 {
+    position: relative;
+    float: left;
+    color: #282930;
+}
+
+.orta_div {
+    position: absolute;
+    width: 45%;
+    height: 500px;
+    background: #746e6e;
+    top: 150px;
+    opacity: 0.8;
+}
+
+#randevu_div {
+    left: 50px;
+}
+
+#doktor_div {
+    right: 50px;
+}
+
+#doktor_div p {
+    position: relative;
+    color: #282930;
+    font-size: 30px;
+    text-align: center;
+    top: 100px;
+}
+
+#doktor_div h3 {
+    text-align: center;
+    font-size: 28px;
+}
+
+select,
+#randevu_div input,
+button {
+    position: relative;
+    width: 450px;
+    height: 40px;
+    margin-top: 10px;
+    background: #282930;
+    color: white;
+    cursor: pointer;
+}
+
+#randevu_div form{
+    position: relative;
+    top: 50px;
+}
+
+.hesabim_content{
+    position: relative;
+    width: 60%;
+    height: auto;
+    left: 20%;
+    top: 50px;
+    background: #e7e7e7;
+    opacity: 0.7;
+}
+
+.label {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: rgb(79, 74, 68);
+}
+
+.label label {
+    position: relative;
+    font-size: 25px;
+    line-height: 60px;
+    left: 50px;
+}
+
+.label input{
+    position: relative;
+    float: right;
+    height: 40px;
+}
+
+.hesabim_content button {
+    position: relative;
+    float: right;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    background: orange;
+}
+
+.hesabim_content button:hover {
+    background: red;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+tr {
+    border: 1px solid #bfbfbf;
+    text-align: center;
+    padding: 8px; 
+}
+
+tr:nth-child(even) {
+    background: #dddddd;
+}

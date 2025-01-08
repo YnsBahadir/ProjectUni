@@ -1,0 +1,5 @@
+12345678911:sekreter:sekreter
+12345678912:doktor:doktor
+
+
+Tc: Şifre: Panel_Tip
